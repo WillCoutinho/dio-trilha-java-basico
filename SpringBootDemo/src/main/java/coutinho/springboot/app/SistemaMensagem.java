@@ -3,12 +3,12 @@ package coutinho.springboot.app;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class SistemaMensagem {
 
-    @Autowired
+//    @Autowired
     private Remetente noreply;
-    @Autowired
+//    @Autowired
     private Remetente tech;
 
     public void enviarConfirmacaoCadastro() {

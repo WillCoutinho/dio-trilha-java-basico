@@ -2,7 +2,7 @@ package coutinho.springboot.app;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Remetente {
 
     private String nome;

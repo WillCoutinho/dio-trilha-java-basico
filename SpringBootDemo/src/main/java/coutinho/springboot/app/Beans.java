@@ -4,10 +4,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
-@Configuration
+//@Configuration
 public class Beans {
-    @Bean
-    @Scope("prototype")
+    //    @Bean
+//    @Scope("prototype")
     public Remetente remetenteBean() {
         System.out.println("CRIANDO OBJETO REMETENTE");
         Remetente remetente = new Remetente();
