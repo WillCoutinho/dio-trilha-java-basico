@@ -16,10 +16,7 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "login='" + username + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return "Username: " + username + " - Password: " + password;
     }
 
     public Integer getId() {

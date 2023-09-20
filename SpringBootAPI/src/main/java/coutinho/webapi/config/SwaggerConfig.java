@@ -1,4 +1,4 @@
-package coutinho.webapi;
+package coutinho.webapi.config;
 
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
